@@ -1,0 +1,30 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(plotly)
+```
+
+##Reading the data
+This data contains the combined information on some favorite restaurants of people in the class.  We each entered information on our 6 favorites and cleaned up the data for consistency.
+
+```{r}
+class <- read.csv("C:\\Users\\aj8pi\\Desktop\\my_restaurants.csv")
+```
+
+##Plotting the data
+```{r}
+ggplot(class, aes(cuisine)) +
+  geom_bar()
+ggplot(class, aes(yearly_visits, cost_per_person)) +
+  geom_point()
+
+
+```
