@@ -1,151 +1,151 @@
-year,rank,park_name,runs,hr,h,doubles,triples,bb,elevation,avg_wall_distance
-2013,1,"Coors Fieldÿ(Denver, Colorado)",1.273,1.169,1.163,1.117,1.72,0.992,5183,376.5
-2013,2,"Wrigley Fieldÿ(Chicago, Illinois)",1.192,1.115,1.104,1.121,0.889,1.044,596,369.7142857
-2013,3,"Comerica Parkÿ(Detroit, Michigan)",1.139,1.013,1.045,1.103,1.684,1.056,596,369.6666667
-2013,4,"Rogers Centreÿ(Toronto, Ontario)",1.118,1.289,1.026,1.476,0.531,1.095,247,362
-2013,5,"Miller Parkÿ(Milwaukee, Wisconsin)",1.11,1.259,1.081,1.041,1.069,1.166,593,366.6
-2013,6,"Citizens Bank Parkÿ(Philadelphia, Pennsylvania)",1.107,1.517,0.987,1.047,1.061,1.042,9,360
-2013,7,"Yankee Stadiumÿ(New York, New York)",1.087,1.128,1.046,0.957,0.727,1.081,54,369.1428571
-2013,8,"Kauffman Stadiumÿ(Kansas City, Missouri)",1.082,0.88,1.036,1.059,1.522,0.993,750,364
-2013,9,"Minute Maid Parkÿ(Houston, Texas)",1.074,1.23,1.013,0.902,1.375,1.105,38,358.8571429
-2013,10,"Oriole Park at Camden Yardsÿ(Baltimore, Maryland)",1.057,1.275,0.988,0.862,0.636,1.011,130,366.3333333
-2013,11,"Marlins Parkÿ(Miami, Florida)",1.03,0.636,1.007,1.135,1.324,1.043,15,367
-2013,12,"Target Fieldÿ(Minneapolis, Minnesota)",1.02,0.802,1.027,1.117,1.045,0.842,812,367.3333333
-2013,13,"Nationals Parkÿ(Washington, D.C.)",1.013,0.804,1.089,1.051,0.577,0.966,25,373.7142857
-2013,14,"Guaranteed Rate Fieldÿ(Chicago, Illinois)",0.998,1.185,0.947,0.761,0.414,1.16,596,363
-2013,15,"Safeco Fieldÿ(Seattle, Washington)",0.991,0.885,1.008,1.112,0.63,0.952,10,367.8571429
-2013,16,"Great American Ball Parkÿ(Cincinnati, Ohio)",0.989,1.338,0.99,1.081,0.82,0.997,683,362.2857143
-2013,17,"Globe Life Park in Arlingtonÿ(Arlington, Texas)",0.985,0.903,0.991,0.877,0.672,1.106,616,364
-2013,18,"Chase Fieldÿ(Phoenix, Arizona)",0.974,0.949,0.944,1.01,1.375,0.98,1082,364.8
-2013,19,"Angel Stadium of Anaheimÿ(Anaheim, California)",0.968,0.902,1.014,0.958,1,0.989,160,366.2857143
-2013,20,"Fenway Parkÿ(Boston, Massachusetts)",0.96,0.845,0.996,1.176,1.292,0.915,20,349.3333333
-2013,21,"Turner Fieldÿ(Cumberland, Georgia)",0.956,0.925,0.987,0.924,1.25,0.945,1050,367
-2013,22,"Progressive Fieldÿ(Cleveland, Ohio)",0.933,1.078,0.976,0.996,0.63,0.918,582,366.2857143
-2013,23,"Tropicana Fieldÿ(St. Petersburg, Florida)",0.931,0.975,0.958,0.901,1.67,0.966,44,358.4285714
-2013,24,"PNC Parkÿ(Pittsburgh, Pennsylvania)",0.907,0.679,0.989,0.858,0.688,0.881,743,364.2857143
-2013,25,"Busch Stadiumÿ(St. Louis, Missouri)",0.892,0.837,0.931,0.869,0.75,0.898,455,364
-2013,26,"Oakland Coliseumÿ(Oakland, California)",0.889,0.818,0.977,1.112,1.316,1.039,42,356.8
-2013,27,"AT&T Parkÿ(San Francisco, California)",0.869,0.768,0.962,1.022,1.951,1.097,63,362.5
-2013,28,"Dodger Stadiumÿ(Los Angeles, California)",0.868,0.963,0.958,0.926,0.458,0.843,267,367.625
-2013,29,"Citi Fieldÿ(New York, New York)",0.867,1.12,0.894,0.838,0.7,1.025,54,365.6
-2013,30,"Petco Parkÿ(San Diego, California)",0.831,0.936,0.901,0.773,1.133,1,13,364
-2014,1,"Coors Fieldÿ(Denver, Colorado)",1.501,1.393,1.315,1.216,1.897,1.049,5183,376.5
-2014,2,"Chase Fieldÿ(Phoenix, Arizona)",1.154,1.194,1.045,1.079,1.793,0.94,1082,364.8
-2014,3,"Target Fieldÿ(Minneapolis, Minnesota)",1.116,1.022,1.08,1.075,1.407,1.079,812,367.3333333
-2014,4,"Busch Stadiumÿ(St. Louis, Missouri)",1.1,0.966,1.006,1.191,1.474,1.086,455,364
-2014,5,"Fenway Parkÿ(Boston, Massachusetts)",1.072,0.72,1.073,1.523,0.857,1.168,20,349.3333333
-2014,6,"Nationals Parkÿ(Washington, D.C.)",1.068,0.701,1.075,1.13,0.375,1.079,25,373.7142857
-2014,7,"Globe Life Park in Arlingtonÿ(Arlington, Texas)",1.052,0.964,0.981,0.801,2.167,0.966,616,364
-2014,8,"Guaranteed Rate Fieldÿ(Chicago, Illinois)",1.052,1.049,1.006,0.996,1.1,1.051,596,363
-2014,9,"Rogers Centreÿ(Toronto, Ontario)",1.042,1.31,1.031,1.107,1.333,0.922,247,362
-2014,10,"Oakland Coliseumÿ(Oakland, California)",1.023,0.903,1.022,1.114,1.2,1.05,42,356.8
-2014,11,"Kauffman Stadiumÿ(Kansas City, Missouri)",1.014,0.843,1.008,1.038,1.069,0.952,750,364
-2014,12,"Marlins Parkÿ(Miami, Florida)",1.014,0.788,0.988,1.026,1.923,0.945,15,367
-2014,13,"Minute Maid Parkÿ(Houston, Texas)",1.012,1.173,1.006,1.048,1.45,0.962,38,358.8571429
-2014,14,"Comerica Parkÿ(Detroit, Michigan)",1.003,1.014,0.979,0.796,1.833,1.02,596,369.6666667
-2014,15,"Tropicana Fieldÿ(St. Petersburg, Florida)",1.002,0.807,0.974,0.883,0.68,1.106,44,358.4285714
-2014,16,"Miller Parkÿ(Milwaukee, Wisconsin)",1.002,1.142,0.969,0.863,0.515,0.977,593,366.6
-2014,17,"PNC Parkÿ(Pittsburgh, Pennsylvania)",0.977,0.711,1.042,1.082,0.806,0.986,743,364.2857143
-2014,18,"Great American Ball Parkÿ(Cincinnati, Ohio)",0.963,1.279,0.962,0.904,1.111,1.105,683,362.2857143
-2014,19,"Progressive Fieldÿ(Cleveland, Ohio)",0.95,1.083,0.982,1.028,0.528,0.963,582,366.2857143
-2014,20,"Yankee Stadiumÿ(New York, New York)",0.945,1.468,1.005,0.877,0.528,0.963,54,369.1428571
-2014,21,"Turner Fieldÿ(Cumberland, Georgia)",0.94,1.122,0.97,0.826,0.63,1.009,1050,367
-2014,22,"Oriole Park at Camden Yardsÿ(Baltimore, Maryland)",0.932,0.936,0.981,0.935,0.636,1.002,130,366.3333333
-2014,23,"Wrigley Fieldÿ(Chicago, Illinois)",0.931,0.943,0.975,1.066,1.037,1.004,596,369.7142857
-2014,24,"Citizens Bank Parkÿ(Philadelphia, Pennsylvania)",0.929,1.214,0.974,0.911,0.844,1.004,9,360
-2014,25,"AT&T Parkÿ(San Francisco, California)",0.92,0.677,0.951,0.916,1.813,0.985,63,362.5
-2014,26,"Angel Stadium of Anaheimÿ(Anaheim, California)",0.919,0.837,0.982,0.993,0.552,0.915,160,366.2857143
-2014,27,"Dodger Stadiumÿ(Los Angeles, California)",0.907,1.226,0.91,1.058,0.348,0.837,267,367.625
-2014,28,"Citi Fieldÿ(New York, New York)",0.847,0.956,0.918,1.038,0.667,0.983,54,365.6
-2014,29,"Petco Parkÿ(San Diego, California)",0.826,0.808,0.916,0.905,0.962,1.058,13,364
-2014,30,"Safeco Fieldÿ(Seattle, Washington)",0.825,1.053,0.89,0.789,0.472,0.88,10,367.8571429
-2015,1,"Coors Fieldÿ(Denver, Colorado)",1.436,1.21,1.301,1.235,2,1.057,5183,376.5
-2015,2,"Progressive Fieldÿ(Cleveland, Ohio)",1.261,0.986,1.169,1.44,0.774,1.115,582,366.2857143
-2015,3,"Oriole Park at Camden Yardsÿ(Baltimore, Maryland)",1.228,1.415,1.121,0.978,0.775,0.936,130,366.3333333
-2015,4,"Fenway Parkÿ(Boston, Massachusetts)",1.191,0.971,1.103,1.281,1.031,0.92,20,349.3333333
-2015,5,"Globe Life Park in Arlingtonÿ(Arlington, Texas)",1.141,1.066,1.107,1.102,0.946,1.133,616,364
-2015,6,"Great American Ball Parkÿ(Cincinnati, Ohio)",1.115,1.137,1.075,1.043,0.444,1.101,683,362.2857143
-2015,7,"Miller Parkÿ(Milwaukee, Wisconsin)",1.103,1.432,1.01,1.07,1.161,1.006,593,366.6
-2015,8,"Chase Fieldÿ(Phoenix, Arizona)",1.062,0.856,1.047,1.207,1.786,1.025,1082,364.8
-2015,9,"Citizens Bank Parkÿ(Philadelphia, Pennsylvania)",1.038,1.14,0.977,0.946,0.667,1.049,9,360
-2015,10,"Yankee Stadiumÿ(New York, New York)",1.022,1.251,0.975,0.887,0.63,1,54,369.1428571
-2015,11,"Kauffman Stadiumÿ(Kansas City, Missouri)",1.019,0.793,0.995,1.221,1.455,0.892,750,364
-2015,12,"Nationals Parkÿ(Washington, D.C.)",1,1.025,0.992,1.049,0.5,1.043,25,373.7142857
-2015,13,"Target Fieldÿ(Minneapolis, Minnesota)",0.994,1.058,1.039,0.979,0.816,0.954,812,367.3333333
-2015,14,"Wrigley Fieldÿ(Chicago, Illinois)",0.95,1.276,0.934,0.794,1.094,1.029,596,369.7142857
-2015,15,"Marlins Parkÿ(Miami, Florida)",0.95,0.74,0.99,0.94,1.226,1.078,15,367
-2015,16,"Oakland Coliseumÿ(Oakland, California)",0.944,0.777,0.964,0.967,1.185,0.906,42,356.8
-2015,17,"Tropicana Fieldÿ(St. Petersburg, Florida)",0.94,0.962,0.939,0.832,0.704,0.895,44,358.4285714
-2015,18,"Turner Fieldÿ(Cumberland, Georgia)",0.937,0.72,0.915,0.971,0.759,1.114,1050,367
-2015,19,"PNC Parkÿ(Pittsburgh, Pennsylvania)",0.933,1.083,0.962,0.874,0.821,1,743,364.2857143
-2015,20,"Petco Parkÿ(San Diego, California)",0.931,1.085,0.966,0.956,0.792,0.992,13,364
-2015,21,"Busch Stadiumÿ(St. Louis, Missouri)",0.931,0.857,1.055,1.008,1.031,0.924,455,364
-2015,22,"Minute Maid Parkÿ(Houston, Texas)",0.927,1.1,0.954,0.963,1.52,0.951,38,358.8571429
-2015,23,"Dodger Stadiumÿ(Los Angeles, California)",0.918,1,0.948,1.059,0.643,0.791,267,367.625
-2015,24,"Rogers Centreÿ(Toronto, Ontario)",0.906,1.005,0.926,1.076,0.958,0.998,247,362
-2015,25,"Guaranteed Rate Fieldÿ(Chicago, Illinois)",0.904,1.113,0.953,0.873,0.833,1.234,596,363
-2015,26,"Comerica Parkÿ(Detroit, Michigan)",0.902,0.791,0.966,0.977,1.353,0.988,596,369.6666667
-2015,27,"Safeco Fieldÿ(Seattle, Washington)",0.878,0.905,0.917,0.829,0.8,0.954,10,367.8571429
-2015,28,"Citi Fieldÿ(New York, New York)",0.87,0.994,0.912,0.934,0.905,0.998,54,365.6
-2015,29,"Angel Stadium of Anaheimÿ(Anaheim, California)",0.861,0.921,0.939,0.863,0.739,1.025,160,366.2857143
-2015,30,"AT&T Parkÿ(San Francisco, California)",0.845,0.599,0.917,0.841,1.647,0.987,63,362.5
-2016,1,"Coors Fieldÿ(Denver, Colorado)",1.368,1.265,1.231,1.405,1.39,1.078,5183,376.5
-2016,2,"Chase Fieldÿ(Phoenix, Arizona)",1.225,1.292,1.139,1.145,2.032,1.042,1082,364.8
-2016,3,"Progressive Fieldÿ(Cleveland, Ohio)",1.207,1.168,1.115,1.299,0.507,1.119,582,366.2857143
-2016,4,"Fenway Parkÿ(Boston, Massachusetts)",1.199,1.065,1.161,1.424,1.667,0.977,20,349.3333333
-2016,5,"Kauffman Stadiumÿ(Kansas City, Missouri)",1.171,0.783,1.092,1.256,1.571,1.039,750,364
-2016,6,"Rogers Centreÿ(Toronto, Ontario)",1.156,1.01,1.083,1.3,1.1,1.039,247,362
-2016,7,"Globe Life Park in Arlingtonÿ(Arlington, Texas)",1.156,1.049,1.1,1.052,1.813,1.029,616,364
-2016,8,"Turner Fieldÿ(Cumberland, Georgia)",1.059,0.77,1.009,0.9,0.936,1.135,1050,367
-2016,9,"Target Fieldÿ(Minneapolis, Minnesota)",1.044,1.014,1.064,1.081,1.031,0.875,812,367.3333333
-2016,10,"Yankee Stadiumÿ(New York, New York)",1.035,1.377,0.982,0.871,0.5,1.033,54,369.1428571
-2016,11,"Comerica Parkÿ(Detroit, Michigan)",1.019,1.138,0.984,0.884,1.904,0.945,596,369.6666667
-2016,12,"Petco Parkÿ(San Diego, California)",1.014,0.957,1.042,1.062,0.75,0.977,13,364
-2016,13,"AT&T Parkÿ(San Francisco, California)",1.012,0.704,1.084,1.101,1.526,1.076,63,362.5
-2016,14,"PNC Parkÿ(Pittsburgh, Pennsylvania)",1.007,0.8,1.013,1.034,1.769,1.007,743,364.2857143
-2016,15,"Great American Ball Parkÿ(Cincinnati, Ohio)",0.99,1.175,0.97,0.949,0.645,1.019,683,362.2857143
-2016,16,"Citi Fieldÿ(New York, New York)",0.988,1.09,0.887,0.838,0.455,1.168,54,365.6
-2016,17,"Miller Parkÿ(Milwaukee, Wisconsin)",0.972,1.126,0.961,1,1.037,0.977,593,366.6
-2016,18,"Nationals Parkÿ(Washington, D.C.)",0.956,1.023,0.974,0.891,0.806,0.972,25,373.7142857
-2016,19,"Oriole Park at Camden Yardsÿ(Baltimore, Maryland)",0.953,1.009,0.967,0.834,0.846,0.975,130,366.3333333
-2016,20,"Safeco Fieldÿ(Seattle, Washington)",0.941,1.158,0.953,0.963,0.538,1.029,10,367.8571429
-2016,21,"Guaranteed Rate Fieldÿ(Chicago, Illinois)",0.927,1.101,0.96,0.89,1.071,0.933,596,363
-2016,22,"Busch Stadiumÿ(St. Louis, Missouri)",0.921,0.901,0.972,0.914,0.543,0.914,455,364
-2016,23,"Angel Stadium of Anaheimÿ(Anaheim, California)",0.91,1.056,0.936,0.828,0.6,0.958,160,366.2857143
-2016,24,"Tropicana Fieldÿ(St. Petersburg, Florida)",0.889,0.877,0.901,0.861,0.952,1.048,44,358.4285714
-2016,25,"Wrigley Fieldÿ(Chicago, Illinois)",0.874,0.819,0.928,0.93,1.045,1.066,596,369.7142857
-2016,26,"Citizens Bank Parkÿ(Philadelphia, Pennsylvania)",0.84,1.149,0.924,0.821,0.889,0.969,9,360
-2016,27,"Marlins Parkÿ(Miami, Florida)",0.834,0.793,0.868,0.963,0.667,0.967,15,367
-2016,28,"Oakland Coliseumÿ(Oakland, California)",0.829,0.727,0.921,0.954,1.043,0.872,42,356.8
-2016,29,"Dodger Stadiumÿ(Los Angeles, California)",0.813,0.914,0.908,0.919,0.382,0.895,267,367.625
-2016,30,"Minute Maid Parkÿ(Houston, Texas)",0.808,0.822,0.926,0.886,1.152,0.918,38,358.8571429
-2017,1,"Coors Fieldÿ(Denver, Colorado)",1.332,1.195,1.152,1.175,2.259,1.085,5183,376.5
-2017,2,"Globe Life Park in Arlingtonÿ(Arlington, Texas)",1.215,1.127,1.135,1.185,1,1.184,616,364
-2017,3,"Chase Fieldÿ(Phoenix, Arizona)",1.202,1.222,1.088,1.351,1.355,1.026,1082,364.8
-2017,4,"Comerica Parkÿ(Detroit, Michigan)",1.169,1.154,1.119,1.129,1.333,0.987,596,369.6666667
-2017,5,"Wrigley Fieldÿ(Chicago, Illinois)",1.131,1.005,1.049,1.104,1.3,1.074,596,369.7142857
-2017,6,"Oakland Coliseumÿ(Oakland, California)",1.103,1.056,1.023,1.108,2.308,1.06,42,356.8
-2017,7,"Target Fieldÿ(Minneapolis, Minnesota)",1.095,1.172,1.088,1.081,1.375,1.118,812,367.3333333
-2017,8,"Miller Parkÿ(Milwaukee, Wisconsin)",1.094,1.049,1.033,1.155,0.763,1.032,593,366.6
-2017,9,"Citizens Bank Parkÿ(Philadelphia, Pennsylvania)",1.073,1.409,0.999,0.943,1.065,1.067,9,360
-2017,10,"Nationals Parkÿ(Washington, D.C.)",1.057,1.04,1.11,1.075,0.636,0.964,25,373.7142857
-2017,11,"Fenway Parkÿ(Boston, Massachusetts)",1.026,0.824,1.103,1.156,0.75,0.958,20,349.3333333
-2017,12,"Oriole Park at Camden Yardsÿ(Baltimore, Maryland)",1.026,1.236,1.034,0.918,0.706,1.097,130,366.3333333
-2017,13,"Great American Ball Parkÿ(Cincinnati, Ohio)",1.02,1.094,0.94,1.007,1.222,1.044,683,362.2857143
-2017,14,"Yankee Stadiumÿ(New York, New York)",1.019,1.279,0.935,0.811,0.75,0.979,54,369.1428571
-2017,15,"Guaranteed Rate Fieldÿ(Chicago, Illinois)",1.003,1.162,0.927,0.876,0.816,1.066,596,363
-2017,16,"SunTrust Parkÿ(Cumberland, GA)",0.976,0.951,1.019,1.057,0.722,0.91,1050,367
-2017,17,"Progressive Fieldÿ(Cleveland, Ohio)",0.971,0.974,0.988,1.017,0.64,0.931,582,366.2857143
-2017,18,"Dodger Stadiumÿ(Los Angeles, California)",0.971,1.005,0.954,0.974,0.6,0.907,267,367.625
-2017,19,"Angel Stadium of Anaheimÿ(Anaheim, California)",0.949,0.971,0.998,0.876,0.722,0.815,160,366.2857143
-2017,20,"PNC Parkÿ(Pittsburgh, Pennsylvania)",0.948,0.86,1.043,1.084,0.634,0.958,743,364.2857143
-2017,21,"Rogers Centreÿ(Toronto, Ontario)",0.946,0.923,0.974,1.075,0.937,0.894,247,362
-2017,22,"Kauffman Stadiumÿ(Kansas City, Missouri)",0.926,0.809,0.966,1.078,1.207,0.98,750,364
-2017,23,"Safeco Fieldÿ(Seattle, Washington)",0.917,0.925,0.946,0.885,1.071,1.053,10,367.8571429
-2017,24,"Tropicana Fieldÿ(St. Petersburg, Florida)",0.902,0.888,0.937,0.837,1.13,0.992,44,358.4285714
-2017,25,"Busch Stadiumÿ(St. Louis, Missouri)",0.889,0.849,0.974,0.957,0.967,1,455,364
-2017,26,"Citi Fieldÿ(New York, New York)",0.858,0.798,0.88,0.899,0.7,0.986,54,365.6
-2017,27,"AT&T Parkÿ(San Francisco, California)",0.85,0.615,0.968,1.003,1.048,0.938,63,362.5
-2017,28,"Marlins Parkÿ(Miami, Florida)",0.848,0.835,0.907,0.716,1.142,1.041,15,367
-2017,29,"Petco Parkÿ(San Diego, California)",0.828,0.781,0.887,0.859,1,0.98,13,364
-2017,30,"Minute Maid Parkÿ(Houston, Texas)",0.826,1.009,0.9,0.81,0.654,0.927,38,358.8571429
+year,rank,park_name,runs,hr,h,doubles,triples,bb,elevation,avg_wall_distance,abbrev
+2013,1,"Coors Fieldÿ(Denver, Colorado)",1.273,1.169,1.163,1.117,1.72,0.992,5183,376.5,COL
+2013,2,"Wrigley Fieldÿ(Chicago, Illinois)",1.192,1.115,1.104,1.121,0.889,1.044,596,369.7142857,DET
+2013,3,"Comerica Parkÿ(Detroit, Michigan)",1.139,1.013,1.045,1.103,1.684,1.056,596,369.6666667,DET
+2013,4,"Rogers Centreÿ(Toronto, Ontario)",1.118,1.289,1.026,1.476,0.531,1.095,247,362,TOR
+2013,5,"Miller Parkÿ(Milwaukee, Wisconsin)",1.11,1.259,1.081,1.041,1.069,1.166,593,366.6,MIL
+2013,6,"Citizens Bank Parkÿ(Philadelphia, Pennsylvania)",1.107,1.517,0.987,1.047,1.061,1.042,9,360,PHI
+2013,7,"Yankee Stadiumÿ(New York, New York)",1.087,1.128,1.046,0.957,0.727,1.081,54,369.1428571,NYY
+2013,8,"Kauffman Stadiumÿ(Kansas City, Missouri)",1.082,0.88,1.036,1.059,1.522,0.993,750,364,KC
+2013,9,"Minute Maid Parkÿ(Houston, Texas)",1.074,1.23,1.013,0.902,1.375,1.105,38,358.8571429,HOU
+2013,10,"Oriole Park at Camden Yardsÿ(Baltimore, Maryland)",1.057,1.275,0.988,0.862,0.636,1.011,130,366.3333333,BAL
+2013,11,"Marlins Parkÿ(Miami, Florida)",1.03,0.636,1.007,1.135,1.324,1.043,15,367,MIA
+2013,12,"Target Fieldÿ(Minneapolis, Minnesota)",1.02,0.802,1.027,1.117,1.045,0.842,812,367.3333333,MIN
+2013,13,"Nationals Parkÿ(Washington, D.C.)",1.013,0.804,1.089,1.051,0.577,0.966,25,373.7142857,WAS
+2013,14,"Guaranteed Rate Fieldÿ(Chicago, Illinois)",0.998,1.185,0.947,0.761,0.414,1.16,596,363,DET
+2013,15,"Safeco Fieldÿ(Seattle, Washington)",0.991,0.885,1.008,1.112,0.63,0.952,10,367.8571429,SEA
+2013,16,"Great American Ball Parkÿ(Cincinnati, Ohio)",0.989,1.338,0.99,1.081,0.82,0.997,683,362.2857143,CIN
+2013,17,"Globe Life Park in Arlingtonÿ(Arlington, Texas)",0.985,0.903,0.991,0.877,0.672,1.106,616,364,TEX
+2013,18,"Chase Fieldÿ(Phoenix, Arizona)",0.974,0.949,0.944,1.01,1.375,0.98,1082,364.8,ARI
+2013,19,"Angel Stadium of Anaheimÿ(Anaheim, California)",0.968,0.902,1.014,0.958,1,0.989,160,366.2857143,ANA
+2013,20,"Fenway Parkÿ(Boston, Massachusetts)",0.96,0.845,0.996,1.176,1.292,0.915,20,349.3333333,BOS
+2013,21,"Turner Fieldÿ(Cumberland, Georgia)",0.956,0.925,0.987,0.924,1.25,0.945,1050,367,ATL
+2013,22,"Progressive Fieldÿ(Cleveland, Ohio)",0.933,1.078,0.976,0.996,0.63,0.918,582,366.2857143,CLE
+2013,23,"Tropicana Fieldÿ(St. Petersburg, Florida)",0.931,0.975,0.958,0.901,1.67,0.966,44,358.4285714,TB
+2013,24,"PNC Parkÿ(Pittsburgh, Pennsylvania)",0.907,0.679,0.989,0.858,0.688,0.881,743,364.2857143,PIT
+2013,25,"Busch Stadiumÿ(St. Louis, Missouri)",0.892,0.837,0.931,0.869,0.75,0.898,455,364,STL
+2013,26,"Oakland Coliseumÿ(Oakland, California)",0.889,0.818,0.977,1.112,1.316,1.039,42,356.8,OAK
+2013,27,"AT&T Parkÿ(San Francisco, California)",0.869,0.768,0.962,1.022,1.951,1.097,63,362.5,SF
+2013,28,"Dodger Stadiumÿ(Los Angeles, California)",0.868,0.963,0.958,0.926,0.458,0.843,267,367.625,LAD
+2013,29,"Citi Fieldÿ(New York, New York)",0.867,1.12,0.894,0.838,0.7,1.025,54,365.6,NYY
+2013,30,"Petco Parkÿ(San Diego, California)",0.831,0.936,0.901,0.773,1.133,1,13,364,SD
+2014,1,"Coors Fieldÿ(Denver, Colorado)",1.501,1.393,1.315,1.216,1.897,1.049,5183,376.5,COL
+2014,2,"Chase Fieldÿ(Phoenix, Arizona)",1.154,1.194,1.045,1.079,1.793,0.94,1082,364.8,ARI
+2014,3,"Target Fieldÿ(Minneapolis, Minnesota)",1.116,1.022,1.08,1.075,1.407,1.079,812,367.3333333,MIN
+2014,4,"Busch Stadiumÿ(St. Louis, Missouri)",1.1,0.966,1.006,1.191,1.474,1.086,455,364,STL
+2014,5,"Fenway Parkÿ(Boston, Massachusetts)",1.072,0.72,1.073,1.523,0.857,1.168,20,349.3333333,BOS
+2014,6,"Nationals Parkÿ(Washington, D.C.)",1.068,0.701,1.075,1.13,0.375,1.079,25,373.7142857,WAS
+2014,7,"Globe Life Park in Arlingtonÿ(Arlington, Texas)",1.052,0.964,0.981,0.801,2.167,0.966,616,364,TEX
+2014,8,"Guaranteed Rate Fieldÿ(Chicago, Illinois)",1.052,1.049,1.006,0.996,1.1,1.051,596,363,DET
+2014,9,"Rogers Centreÿ(Toronto, Ontario)",1.042,1.31,1.031,1.107,1.333,0.922,247,362,TOR
+2014,10,"Oakland Coliseumÿ(Oakland, California)",1.023,0.903,1.022,1.114,1.2,1.05,42,356.8,OAK
+2014,11,"Kauffman Stadiumÿ(Kansas City, Missouri)",1.014,0.843,1.008,1.038,1.069,0.952,750,364,KC
+2014,12,"Marlins Parkÿ(Miami, Florida)",1.014,0.788,0.988,1.026,1.923,0.945,15,367,MIA
+2014,13,"Minute Maid Parkÿ(Houston, Texas)",1.012,1.173,1.006,1.048,1.45,0.962,38,358.8571429,HOU
+2014,14,"Comerica Parkÿ(Detroit, Michigan)",1.003,1.014,0.979,0.796,1.833,1.02,596,369.6666667,DET
+2014,15,"Tropicana Fieldÿ(St. Petersburg, Florida)",1.002,0.807,0.974,0.883,0.68,1.106,44,358.4285714,TB
+2014,16,"Miller Parkÿ(Milwaukee, Wisconsin)",1.002,1.142,0.969,0.863,0.515,0.977,593,366.6,MIL
+2014,17,"PNC Parkÿ(Pittsburgh, Pennsylvania)",0.977,0.711,1.042,1.082,0.806,0.986,743,364.2857143,PIT
+2014,18,"Great American Ball Parkÿ(Cincinnati, Ohio)",0.963,1.279,0.962,0.904,1.111,1.105,683,362.2857143,CIN
+2014,19,"Progressive Fieldÿ(Cleveland, Ohio)",0.95,1.083,0.982,1.028,0.528,0.963,582,366.2857143,CLE
+2014,20,"Yankee Stadiumÿ(New York, New York)",0.945,1.468,1.005,0.877,0.528,0.963,54,369.1428571,NYY
+2014,21,"Turner Fieldÿ(Cumberland, Georgia)",0.94,1.122,0.97,0.826,0.63,1.009,1050,367,ATL
+2014,22,"Oriole Park at Camden Yardsÿ(Baltimore, Maryland)",0.932,0.936,0.981,0.935,0.636,1.002,130,366.3333333,BAL
+2014,23,"Wrigley Fieldÿ(Chicago, Illinois)",0.931,0.943,0.975,1.066,1.037,1.004,596,369.7142857,DET
+2014,24,"Citizens Bank Parkÿ(Philadelphia, Pennsylvania)",0.929,1.214,0.974,0.911,0.844,1.004,9,360,PHI
+2014,25,"AT&T Parkÿ(San Francisco, California)",0.92,0.677,0.951,0.916,1.813,0.985,63,362.5,SF
+2014,26,"Angel Stadium of Anaheimÿ(Anaheim, California)",0.919,0.837,0.982,0.993,0.552,0.915,160,366.2857143,ANA
+2014,27,"Dodger Stadiumÿ(Los Angeles, California)",0.907,1.226,0.91,1.058,0.348,0.837,267,367.625,LAD
+2014,28,"Citi Fieldÿ(New York, New York)",0.847,0.956,0.918,1.038,0.667,0.983,54,365.6,NYY
+2014,29,"Petco Parkÿ(San Diego, California)",0.826,0.808,0.916,0.905,0.962,1.058,13,364,SD
+2014,30,"Safeco Fieldÿ(Seattle, Washington)",0.825,1.053,0.89,0.789,0.472,0.88,10,367.8571429,SEA
+2015,1,"Coors Fieldÿ(Denver, Colorado)",1.436,1.21,1.301,1.235,2,1.057,5183,376.5,COL
+2015,2,"Progressive Fieldÿ(Cleveland, Ohio)",1.261,0.986,1.169,1.44,0.774,1.115,582,366.2857143,CLE
+2015,3,"Oriole Park at Camden Yardsÿ(Baltimore, Maryland)",1.228,1.415,1.121,0.978,0.775,0.936,130,366.3333333,BAL
+2015,4,"Fenway Parkÿ(Boston, Massachusetts)",1.191,0.971,1.103,1.281,1.031,0.92,20,349.3333333,BOS
+2015,5,"Globe Life Park in Arlingtonÿ(Arlington, Texas)",1.141,1.066,1.107,1.102,0.946,1.133,616,364,TEX
+2015,6,"Great American Ball Parkÿ(Cincinnati, Ohio)",1.115,1.137,1.075,1.043,0.444,1.101,683,362.2857143,CIN
+2015,7,"Miller Parkÿ(Milwaukee, Wisconsin)",1.103,1.432,1.01,1.07,1.161,1.006,593,366.6,MIL
+2015,8,"Chase Fieldÿ(Phoenix, Arizona)",1.062,0.856,1.047,1.207,1.786,1.025,1082,364.8,ARI
+2015,9,"Citizens Bank Parkÿ(Philadelphia, Pennsylvania)",1.038,1.14,0.977,0.946,0.667,1.049,9,360,PHI
+2015,10,"Yankee Stadiumÿ(New York, New York)",1.022,1.251,0.975,0.887,0.63,1,54,369.1428571,NYY
+2015,11,"Kauffman Stadiumÿ(Kansas City, Missouri)",1.019,0.793,0.995,1.221,1.455,0.892,750,364,KC
+2015,12,"Nationals Parkÿ(Washington, D.C.)",1,1.025,0.992,1.049,0.5,1.043,25,373.7142857,WAS
+2015,13,"Target Fieldÿ(Minneapolis, Minnesota)",0.994,1.058,1.039,0.979,0.816,0.954,812,367.3333333,MIN
+2015,14,"Wrigley Fieldÿ(Chicago, Illinois)",0.95,1.276,0.934,0.794,1.094,1.029,596,369.7142857,DET
+2015,15,"Marlins Parkÿ(Miami, Florida)",0.95,0.74,0.99,0.94,1.226,1.078,15,367,MIA
+2015,16,"Oakland Coliseumÿ(Oakland, California)",0.944,0.777,0.964,0.967,1.185,0.906,42,356.8,OAK
+2015,17,"Tropicana Fieldÿ(St. Petersburg, Florida)",0.94,0.962,0.939,0.832,0.704,0.895,44,358.4285714,TB
+2015,18,"Turner Fieldÿ(Cumberland, Georgia)",0.937,0.72,0.915,0.971,0.759,1.114,1050,367,ATL
+2015,19,"PNC Parkÿ(Pittsburgh, Pennsylvania)",0.933,1.083,0.962,0.874,0.821,1,743,364.2857143,PIT
+2015,20,"Petco Parkÿ(San Diego, California)",0.931,1.085,0.966,0.956,0.792,0.992,13,364,SD
+2015,21,"Busch Stadiumÿ(St. Louis, Missouri)",0.931,0.857,1.055,1.008,1.031,0.924,455,364,STL
+2015,22,"Minute Maid Parkÿ(Houston, Texas)",0.927,1.1,0.954,0.963,1.52,0.951,38,358.8571429,HOU
+2015,23,"Dodger Stadiumÿ(Los Angeles, California)",0.918,1,0.948,1.059,0.643,0.791,267,367.625,LAD
+2015,24,"Rogers Centreÿ(Toronto, Ontario)",0.906,1.005,0.926,1.076,0.958,0.998,247,362,TOR
+2015,25,"Guaranteed Rate Fieldÿ(Chicago, Illinois)",0.904,1.113,0.953,0.873,0.833,1.234,596,363,DET
+2015,26,"Comerica Parkÿ(Detroit, Michigan)",0.902,0.791,0.966,0.977,1.353,0.988,596,369.6666667,DET
+2015,27,"Safeco Fieldÿ(Seattle, Washington)",0.878,0.905,0.917,0.829,0.8,0.954,10,367.8571429,SEA
+2015,28,"Citi Fieldÿ(New York, New York)",0.87,0.994,0.912,0.934,0.905,0.998,54,365.6,NYY
+2015,29,"Angel Stadium of Anaheimÿ(Anaheim, California)",0.861,0.921,0.939,0.863,0.739,1.025,160,366.2857143,ANA
+2015,30,"AT&T Parkÿ(San Francisco, California)",0.845,0.599,0.917,0.841,1.647,0.987,63,362.5,SF
+2016,1,"Coors Fieldÿ(Denver, Colorado)",1.368,1.265,1.231,1.405,1.39,1.078,5183,376.5,COL
+2016,2,"Chase Fieldÿ(Phoenix, Arizona)",1.225,1.292,1.139,1.145,2.032,1.042,1082,364.8,ARI
+2016,3,"Progressive Fieldÿ(Cleveland, Ohio)",1.207,1.168,1.115,1.299,0.507,1.119,582,366.2857143,CLE
+2016,4,"Fenway Parkÿ(Boston, Massachusetts)",1.199,1.065,1.161,1.424,1.667,0.977,20,349.3333333,BOS
+2016,5,"Kauffman Stadiumÿ(Kansas City, Missouri)",1.171,0.783,1.092,1.256,1.571,1.039,750,364,KC
+2016,6,"Rogers Centreÿ(Toronto, Ontario)",1.156,1.01,1.083,1.3,1.1,1.039,247,362,TOR
+2016,7,"Globe Life Park in Arlingtonÿ(Arlington, Texas)",1.156,1.049,1.1,1.052,1.813,1.029,616,364,TEX
+2016,8,"Turner Fieldÿ(Cumberland, Georgia)",1.059,0.77,1.009,0.9,0.936,1.135,1050,367,ATL
+2016,9,"Target Fieldÿ(Minneapolis, Minnesota)",1.044,1.014,1.064,1.081,1.031,0.875,812,367.3333333,MIN
+2016,10,"Yankee Stadiumÿ(New York, New York)",1.035,1.377,0.982,0.871,0.5,1.033,54,369.1428571,NYY
+2016,11,"Comerica Parkÿ(Detroit, Michigan)",1.019,1.138,0.984,0.884,1.904,0.945,596,369.6666667,DET
+2016,12,"Petco Parkÿ(San Diego, California)",1.014,0.957,1.042,1.062,0.75,0.977,13,364,SD
+2016,13,"AT&T Parkÿ(San Francisco, California)",1.012,0.704,1.084,1.101,1.526,1.076,63,362.5,SF
+2016,14,"PNC Parkÿ(Pittsburgh, Pennsylvania)",1.007,0.8,1.013,1.034,1.769,1.007,743,364.2857143,PIT
+2016,15,"Great American Ball Parkÿ(Cincinnati, Ohio)",0.99,1.175,0.97,0.949,0.645,1.019,683,362.2857143,CIN
+2016,16,"Citi Fieldÿ(New York, New York)",0.988,1.09,0.887,0.838,0.455,1.168,54,365.6,NYY
+2016,17,"Miller Parkÿ(Milwaukee, Wisconsin)",0.972,1.126,0.961,1,1.037,0.977,593,366.6,MIL
+2016,18,"Nationals Parkÿ(Washington, D.C.)",0.956,1.023,0.974,0.891,0.806,0.972,25,373.7142857,WAS
+2016,19,"Oriole Park at Camden Yardsÿ(Baltimore, Maryland)",0.953,1.009,0.967,0.834,0.846,0.975,130,366.3333333,BAL
+2016,20,"Safeco Fieldÿ(Seattle, Washington)",0.941,1.158,0.953,0.963,0.538,1.029,10,367.8571429,SEA
+2016,21,"Guaranteed Rate Fieldÿ(Chicago, Illinois)",0.927,1.101,0.96,0.89,1.071,0.933,596,363,DET
+2016,22,"Busch Stadiumÿ(St. Louis, Missouri)",0.921,0.901,0.972,0.914,0.543,0.914,455,364,STL
+2016,23,"Angel Stadium of Anaheimÿ(Anaheim, California)",0.91,1.056,0.936,0.828,0.6,0.958,160,366.2857143,ANA
+2016,24,"Tropicana Fieldÿ(St. Petersburg, Florida)",0.889,0.877,0.901,0.861,0.952,1.048,44,358.4285714,TB
+2016,25,"Wrigley Fieldÿ(Chicago, Illinois)",0.874,0.819,0.928,0.93,1.045,1.066,596,369.7142857,DET
+2016,26,"Citizens Bank Parkÿ(Philadelphia, Pennsylvania)",0.84,1.149,0.924,0.821,0.889,0.969,9,360,PHI
+2016,27,"Marlins Parkÿ(Miami, Florida)",0.834,0.793,0.868,0.963,0.667,0.967,15,367,MIA
+2016,28,"Oakland Coliseumÿ(Oakland, California)",0.829,0.727,0.921,0.954,1.043,0.872,42,356.8,OAK
+2016,29,"Dodger Stadiumÿ(Los Angeles, California)",0.813,0.914,0.908,0.919,0.382,0.895,267,367.625,LAD
+2016,30,"Minute Maid Parkÿ(Houston, Texas)",0.808,0.822,0.926,0.886,1.152,0.918,38,358.8571429,HOU
+2017,1,"Coors Fieldÿ(Denver, Colorado)",1.332,1.195,1.152,1.175,2.259,1.085,5183,376.5,COL
+2017,2,"Globe Life Park in Arlingtonÿ(Arlington, Texas)",1.215,1.127,1.135,1.185,1,1.184,616,364,TEX
+2017,3,"Chase Fieldÿ(Phoenix, Arizona)",1.202,1.222,1.088,1.351,1.355,1.026,1082,364.8,ARI
+2017,4,"Comerica Parkÿ(Detroit, Michigan)",1.169,1.154,1.119,1.129,1.333,0.987,596,369.6666667,DET
+2017,5,"Wrigley Fieldÿ(Chicago, Illinois)",1.131,1.005,1.049,1.104,1.3,1.074,596,369.7142857,DET
+2017,6,"Oakland Coliseumÿ(Oakland, California)",1.103,1.056,1.023,1.108,2.308,1.06,42,356.8,OAK
+2017,7,"Target Fieldÿ(Minneapolis, Minnesota)",1.095,1.172,1.088,1.081,1.375,1.118,812,367.3333333,MIN
+2017,8,"Miller Parkÿ(Milwaukee, Wisconsin)",1.094,1.049,1.033,1.155,0.763,1.032,593,366.6,MIL
+2017,9,"Citizens Bank Parkÿ(Philadelphia, Pennsylvania)",1.073,1.409,0.999,0.943,1.065,1.067,9,360,PHI
+2017,10,"Nationals Parkÿ(Washington, D.C.)",1.057,1.04,1.11,1.075,0.636,0.964,25,373.7142857,WAS
+2017,11,"Fenway Parkÿ(Boston, Massachusetts)",1.026,0.824,1.103,1.156,0.75,0.958,20,349.3333333,BOS
+2017,12,"Oriole Park at Camden Yardsÿ(Baltimore, Maryland)",1.026,1.236,1.034,0.918,0.706,1.097,130,366.3333333,BAL
+2017,13,"Great American Ball Parkÿ(Cincinnati, Ohio)",1.02,1.094,0.94,1.007,1.222,1.044,683,362.2857143,CIN
+2017,14,"Yankee Stadiumÿ(New York, New York)",1.019,1.279,0.935,0.811,0.75,0.979,54,369.1428571,NYY
+2017,15,"Guaranteed Rate Fieldÿ(Chicago, Illinois)",1.003,1.162,0.927,0.876,0.816,1.066,596,363,DET
+2017,16,"SunTrust Parkÿ(Cumberland, GA)",0.976,0.951,1.019,1.057,0.722,0.91,1050,367,ATL
+2017,17,"Progressive Fieldÿ(Cleveland, Ohio)",0.971,0.974,0.988,1.017,0.64,0.931,582,366.2857143,CLE
+2017,18,"Dodger Stadiumÿ(Los Angeles, California)",0.971,1.005,0.954,0.974,0.6,0.907,267,367.625,LAD
+2017,19,"Angel Stadium of Anaheimÿ(Anaheim, California)",0.949,0.971,0.998,0.876,0.722,0.815,160,366.2857143,ANA
+2017,20,"PNC Parkÿ(Pittsburgh, Pennsylvania)",0.948,0.86,1.043,1.084,0.634,0.958,743,364.2857143,PIT
+2017,21,"Rogers Centreÿ(Toronto, Ontario)",0.946,0.923,0.974,1.075,0.937,0.894,247,362,TOR
+2017,22,"Kauffman Stadiumÿ(Kansas City, Missouri)",0.926,0.809,0.966,1.078,1.207,0.98,750,364,KC
+2017,23,"Safeco Fieldÿ(Seattle, Washington)",0.917,0.925,0.946,0.885,1.071,1.053,10,367.8571429,SEA
+2017,24,"Tropicana Fieldÿ(St. Petersburg, Florida)",0.902,0.888,0.937,0.837,1.13,0.992,44,358.4285714,TB
+2017,25,"Busch Stadiumÿ(St. Louis, Missouri)",0.889,0.849,0.974,0.957,0.967,1,455,364,STL
+2017,26,"Citi Fieldÿ(New York, New York)",0.858,0.798,0.88,0.899,0.7,0.986,54,365.6,NYY
+2017,27,"AT&T Parkÿ(San Francisco, California)",0.85,0.615,0.968,1.003,1.048,0.938,63,362.5,SF
+2017,28,"Marlins Parkÿ(Miami, Florida)",0.848,0.835,0.907,0.716,1.142,1.041,15,367,MIA
+2017,29,"Petco Parkÿ(San Diego, California)",0.828,0.781,0.887,0.859,1,0.98,13,364,SD
+2017,30,"Minute Maid Parkÿ(Houston, Texas)",0.826,1.009,0.9,0.81,0.654,0.927,38,358.8571429,HOU
