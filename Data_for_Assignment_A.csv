@@ -1,4 +1,4 @@
-year,rank,park_name,runs,hr,h,2b,3b,bb,elevation,avg_wall_distance
+year,rank,park_name,runs,hr,h,doubles,triples,bb,elevation,avg_wall_distance
 2013,1,"Coors Fieldÿ(Denver, Colorado)",1.273,1.169,1.163,1.117,1.72,0.992,5183,376.5
 2013,2,"Wrigley Fieldÿ(Chicago, Illinois)",1.192,1.115,1.104,1.121,0.889,1.044,596,369.7142857
 2013,3,"Comerica Parkÿ(Detroit, Michigan)",1.139,1.013,1.045,1.103,1.684,1.056,596,369.6666667
