@@ -1,0 +1,95 @@
+---
+title: "Bronx Analysis"
+author: "Aidan Judge"
+output: html_notebook
+---
+
+**BELOW ARE INSTRUCTIONS FOR HOW TO COMPLETE THE ASSIGNMENT;
+MAKE SURE THAT YOU DELETE ALL OF THE COMMENTS IN ALL CAPS
+(AS WELL AS THIS COMMENT), BEFORE SUBMITTING**
+
+THIS FIRST CHUNK SHOULD LOAD ALL OF THE PACKAGES (I THINK
+YOU WILL NOT NEED TO CHANGE THIS)
+
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+library(readr)
+library(ggplot2)
+library(dplyr)
+library(ggmap)
+library(viridis)
+library(forcats)
+```
+
+##Loading large dataset and filtered New York metropolitan dataset
+```{r}
+tracts <- read_csv("https://raw.githubusercontent.com/statsmaths/stat_data/gh-pages/acs_tract_data_2016.csv.gz")
+
+nymet <- filter(tracts, cbsa == "New York-Newark-Jersey City, NY-NJ-PA")
+```
+
+##Creation of new variables
+```{r}
+nymet$leave_before_0700 <- nymet$leave_0000_0459 + nymet$leave_0500_0529 + nymet$leave_0530_0559 + nymet$leave_0600_0629 + nymet$leave_0629_0659
+
+tracts$leave_before_0700 <- tracts$leave_0000_0459 + tracts$leave_0500_0529 + tracts$leave_0530_0559 + tracts$leave_0600_0629 + tracts$leave_0629_0659
+
+temp <- select(nymet, starts_with("race_"))
+nymet$max_race_category <- names(temp)[apply(temp, 1, which.max)]
+```
+
+##What parts of the NY Metropolitan area have large black populations
+```{r}
+qmplot(lon, lat, data = nymet, geom = "blank") +
+  geom_point(aes(color = race_black, size = population), alpha = 0.3) +
+  scale_color_viridis() +
+  ggtitle("NY Metropolitan Area by Black Populations") +
+  labs(size = "Population", color = "Percentage of Residents Identifying as Black")
+```
+
+##What parts of the NY Metropolitan area have large percentages of residents who were born in the state they now live in
+```{r}
+qmplot(lon, lat, data = nymet, geom = "blank") +
+  geom_point(aes(color = born_same_st, size = population), alpha = 0.3) +
+  scale_color_viridis() +
+  ggtitle("NY Metropolitan Area by Black Populations") +
+  labs(size = "Population", color = "Percentage of Residents Identifying as Black")
+```
+
+
+```{r}
+qmplot(lon, lat, data = nymet, geom = "blank") +
+  geom_point(aes(color = race_black, size = population), alpha = 0.3) +
+  scale_color_viridis()
+
+
+ggplot(nymet, aes(population, hh_income_q5)) +
+  geom_point()
+
+qmplot(lon, lat, data = nymet, geom = "blank") +
+  geom_point(aes(color = leave_before_0700), alpha = 0.8) +
+  scale_color_viridis()
+
+ggplot(nymet, aes(population, hh_income_q5)) +
+  geom_point(aes(color = max_race_category))
+```
+
+```{r}  
+
+
+
+```
+
+NOW, YOUR REPORT SHOULD GO HERE. FEEL FREE TO SPLIT IT UP
+WITH SECTIONS `##`, BUT THIS IS NOT REQUIRED. ADD CODE CHUNKS
+TO PRODUCE GRAPHICS WHERE THEY BELONG IN THE OUTPUT
+
+## References
+
+IF YOU CITE ANY EXTERNAL SOURCES INCLUDE PARANTHETICAL
+REFERENCES [SUCH AS: (Arnold, 2017)] IN THE TEXT AND
+ADD CITATIONS HERE.
+
+
