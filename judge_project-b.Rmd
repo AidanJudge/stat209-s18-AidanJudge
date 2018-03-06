@@ -1,15 +1,8 @@
 ---
-title: "Bronx Analysis"
+title: "New York Metropolitan Area Analysis"
 author: "Aidan Judge"
 output: html_notebook
 ---
-
-**BELOW ARE INSTRUCTIONS FOR HOW TO COMPLETE THE ASSIGNMENT;
-MAKE SURE THAT YOU DELETE ALL OF THE COMMENTS IN ALL CAPS
-(AS WELL AS THIS COMMENT), BEFORE SUBMITTING**
-
-THIS FIRST CHUNK SHOULD LOAD ALL OF THE PACKAGES (I THINK
-YOU WILL NOT NEED TO CHANGE THIS)
 
 ```{r setup, include=FALSE, message=FALSE, warning=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -23,14 +16,15 @@ library(viridis)
 library(forcats)
 ```
 
-##Loading large dataset and filtered New York metropolitan dataset
 ```{r}
 tracts <- read_csv("https://raw.githubusercontent.com/statsmaths/stat_data/gh-pages/acs_tract_data_2016.csv.gz")
 
 nymet <- filter(tracts, cbsa == "New York-Newark-Jersey City, NY-NJ-PA")
+
+wealthy <- filter(nymet, hh_income_q5 > 1000000.0)
+
 ```
 
-##Creation of new variables
 ```{r}
 nymet$leave_before_0700 <- nymet$leave_0000_0459 + nymet$leave_0500_0529 + nymet$leave_0530_0559 + nymet$leave_0600_0629 + nymet$leave_0629_0659
 
@@ -38,58 +32,39 @@ tracts$leave_before_0700 <- tracts$leave_0000_0459 + tracts$leave_0500_0529 + tr
 
 temp <- select(nymet, starts_with("race_"))
 nymet$max_race_category <- names(temp)[apply(temp, 1, which.max)]
+
 ```
 
-##What parts of the NY Metropolitan area have large black populations
+#For Project B, I chose to do an exploratory analysis of the New York Metropolitan area.  I am originally from the Bronx, but I went to high school with kids from all over the tristate area, and have worked various odd jobs and internships throughout New York and Connecticut.  I really began with a broad, exploratory analysis.  I looked at patterns involving commute times and departure times, thinking back on my econometrics class and trying to find structural breaks between the incomes for individuals that left for work before and after 7 A.M.  I became really interested in the variable that we were given the code for on how to create the "max race category" variable.  As I began to look more into this data, I realized that the majority of data points had a max race category variable of white.  I was no longer so interested in this variable because it reduced the full scale of viewing any individual race as a percentage of a population and reduced the data point to its majority.
+#For the first visual, I mapped out the percentage of people at each data point that identified as black.  I was not very surprised to see low percentages of residents identifying as black up throughout Westchester County, on Long Island, and down near the Jersey Shore.  What I found was that the data points concentrated in and around the five boroughs of New York City on the map, where there are larger populations, tended to have more of the blue, green, and yellow coloring indicative of areas with 50+ percent black residents.  This did not surprise me very much.  I thought of my commutes to high school and how different they were from my commutes to my internship this past summer.  I live at an interesting point on this map, up at the northernmost part of the Bronx.  In high school, I used to walk one mile south to the first stop on the 1 train subway.  The 1 train goes through the South Bronx, then Harlem, then the Upper West Side, and then Hell's kitchen as it progresses throughout the city.  I saw a lot of New York City and noticed a lot about the demographics of the people riding the subway.  I noticed a similarly stark contrast to the one this map indicates when I took the Metro North railroad this summer to my internship because it was so much shorter than taking the subway because I was working further downtown than I went to high school.  Unlike the subway, where I had to walk one mile south out of the suburbs and into a more commercialized area of the Bronx with taller buildings where the subway starts, I was one of the last stops on the Metro North.  The Metro North starts picking people up about an hour north of New York City, in Westchester County.  I am one of the last stops on the Metro North, except for when it's running shuttles to Yankee Stadium for game day, before it goes express into Grand Central where it meets up with the LIRR trains, the Long Island railroad.  It is clear in the first map that Long Island, jutting out from New York City to the east, is another vicinity of the New York metropolitan area with a low percentage of black people.  This past summer, I worked as a financial services consultant for EY with J.P. Morgan as my client, and my commute was vastly different than high school.  I saw everyone from Westchester and Long Island filing through Grand Central and walking out to their firms on Park Avenue or switching to the 4 train for a quick, express ride down to Wall Street.  The demographics separating the 1 train from the Metro North and Long Island railroad are apparent from the first visualization.
+
 ```{r}
 qmplot(lon, lat, data = nymet, geom = "blank") +
   geom_point(aes(color = race_black, size = population), alpha = 0.3) +
   scale_color_viridis() +
   ggtitle("NY Metropolitan Area by Black Populations") +
   labs(size = "Population", color = "Percentage of Residents Identifying as Black")
+
 ```
 
-##What parts of the NY Metropolitan area have large percentages of residents who were born in the state they now live in
+#For my second graphic, I mapped out the New York Metropolitan area based on the percentages of residents born in their home state.  I found some correlation between the first visualization and this one.  Westchester County to the north and Long Island to the east appeared to have large percentages of people that were born in the state where they currently live (i.e. they were born and still live in New York State).  The opposite is true for Pike County, furthest west on the map in Pennsylvania as there are a lot of retirement and older age communities (perhaps New Yorkers moving out there) as well as Hudson County which includes towns like Hoboken and Secaucus, New Jersey which is made up of a lot of young professionals moving towards and beginning careers in New York City.
+
 ```{r}
 qmplot(lon, lat, data = nymet, geom = "blank") +
   geom_point(aes(color = born_same_st, size = population), alpha = 0.3) +
   scale_color_viridis() +
-  ggtitle("NY Metropolitan Area by Black Populations") +
-  labs(size = "Population", color = "Percentage of Residents Identifying as Black")
+  ggtitle("New York Metropolitan Residents Born in their Home State") +
+  labs(size = "Population", color = "Percentage of Residents Born in Home State")
 ```
 
+#For my third graphic, I looked at data points in the New York Metropolitan area with mean incomes for households in the fifth quintile over $1,000,000.  This reduced my large dataset of 4,435 observations down to 15 observations.  What I found is highlighted in green on the graph above the other 4,420 observations.  These ultra-wealthy towns include Nassau County, on Long Island, and multiple locations within Westchester County and Manhattan's wealthiest neighborhoods.
 
 ```{r}
-qmplot(lon, lat, data = nymet, geom = "blank") +
-  geom_point(aes(color = race_black, size = population), alpha = 0.3) +
-  scale_color_viridis()
-
-
-ggplot(nymet, aes(population, hh_income_q5)) +
-  geom_point()
-
-qmplot(lon, lat, data = nymet, geom = "blank") +
-  geom_point(aes(color = leave_before_0700), alpha = 0.8) +
-  scale_color_viridis()
-
-ggplot(nymet, aes(population, hh_income_q5)) +
-  geom_point(aes(color = max_race_category))
+ggplot(nymet, aes(born_same_st, hh_income_q5)) +
+  geom_point() +
+  geom_point(color = "green", data = wealthy) +
+  geom_text(aes(label = county), color = "green", size = 3.0, data = wealthy) +
+  ggtitle("Areas of New York With Top Quintile Mean Income Over $1 Million") +
+  xlab("Percentage of Residents Born in the State They Live In") +
+  ylab("Mean Income for Households in the 5th Quintile")
 ```
-
-```{r}  
-
-
-
-```
-
-NOW, YOUR REPORT SHOULD GO HERE. FEEL FREE TO SPLIT IT UP
-WITH SECTIONS `##`, BUT THIS IS NOT REQUIRED. ADD CODE CHUNKS
-TO PRODUCE GRAPHICS WHERE THEY BELONG IN THE OUTPUT
-
-## References
-
-IF YOU CITE ANY EXTERNAL SOURCES INCLUDE PARANTHETICAL
-REFERENCES [SUCH AS: (Arnold, 2017)] IN THE TEXT AND
-ADD CITATIONS HERE.
-
-
