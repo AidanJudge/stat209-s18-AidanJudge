@@ -1,0 +1,65 @@
+---
+title: "NBA Leading Scorers Analysis"
+author: "Aidan Judge"
+output: html_document
+---
+
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(out.width = "100%")
+knitr::opts_chunk$set(dpi = 300)
+
+library(readr)
+library(ggplot2)
+library(dplyr)
+library(ggmap)
+library(viridis)
+library(forcats)
+library(smodels)
+```
+
+##Download the data
+```{r}
+nba <- read_csv('/Users/aj8pi/Desktop/nba.csv')
+```
+
+##Linear Model that regresses points per game on age
+```{r}
+model1 <- lm_basic(pts ~ 1 + netrtg, data=nba)
+reg_table(model1, level = .95)
+qplot(netrtg, pts, data = nba) + geom_smooth(method = "lm")
+```
+
+##Model 2 - Comparing two means
+```{r}
+model2 <- lm_basic(pts ~ 1 + draft_round, data = nba)
+reg_table(model2, level = .95)
+ggplot(nba, aes(draft_round, pts)) +
+  geom_boxplot()
+```
+```{r}
+model3 <- lm_basic(netrtg ~ 1 + draft_round, data = nba)
+reg_table(model3, level = .95)
+ggplot(nba, aes(draft_round, netrtg)) +
+  geom_boxplot()
+```
+## Introduction
+
+
+## Methods
+
+
+## Results
+
+
+## Conclusions
+
+
+
+## References
+
+
+
+
