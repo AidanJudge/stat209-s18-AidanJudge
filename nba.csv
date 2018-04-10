@@ -1,4 +1,4 @@
-name,team,age,weight,draft_round,draft_number,gp,pts,reb,ast,netrtg,oreb,dreb,usg,ts,ast
+name,team,age,weight,draft_round,draft_number,gp,pts,reb,ast,netrtg,oreb,dreb,usg,ts,astperc
 James Harden,HOU,28,220,First Round,3,71,30.6,5.4,8.7,10,0.02,0.15,0.36,0.62,0.45
 Anthony Davis,NOP,25,253,First Round,1,73,28.2,11.1,2.3,4.7,0.08,0.24,0.3,0.61,0.11
 LeBron James,CLE,33,250,First Round,1,80,27.7,8.7,9.2,1.5,0.04,0.23,0.32,0.62,0.43
