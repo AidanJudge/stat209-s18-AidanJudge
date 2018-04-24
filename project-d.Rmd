@@ -69,15 +69,36 @@ reg_table(model4, level = .95)
 ```{r}
 top30players <- group_summarize(nba_shots, fct_lump(player_name, 30))
 top30players$player_name <- top30players$`fct_lump(player_name, 30)`
-qplot(close_def_dist_mean, fgm_mean, data = top30players) +
+qplot(touch_time_mean, fgm_mean, data = top30players) +
   geom_smooth(method = "lm") +
   geom_text(aes(label = player_name), size = 2) +
   geom_point(aes(color = cut(shooter_height_mean, 5)))
              
-model5 <- lm_basic(fgm_mean ~ 1 + close_def_dist_mean + shooter_height_mean, data = top30players)
+model5 <- lm_basic(fgm_mean ~ 1 + shooter_height_mean + touch_time_mean, data = top30players)
 reg_table(model5, level = .95)
 ```
 
+##Model 6 - are three point shooting teams more effective? Is the ratio of average points per shot to fgm an indicator of margin of victory
+
+```{r}
+individualgames$scoring_efficiency <- individualgames$pts_mean/individualgames$fgm_mean
+qplot(scoring_efficiency, final_margin_mean, data = individualgames) +
+  geom_smooth(method = "lm")
+model6 <- lm_basic(final_margin_mean ~ 1 + scoring_efficiency, data = individualgames)
+reg_table(model6, level = .95)
+```
+
+##Model 7 same as model 5 but with all players
+```{r}
+byplayers <- group_summarize(nba_shots, fct_lump(player_name, 100))
+byplayers$player_name <- byplayers$'fct_lump(player_name, 100)'
+qplot(shooter_height_mean, fgm_mean, data = byplayers) +
+  geom_smooth(method = "lm") +
+  geom_point(aes(color = cut(touch_time_mean, 5)))
+             
+model7 <- lm_basic(fgm_mean ~ 1 + shooter_height_mean + touch_time_mean, data = top30players)
+reg_table(model7, level = .95)
+```
 
 ##Thesis (Accompanies Model 4):
 Defense is a significant factor in a team's success in the NBA, and players like Kawhi Leonard and Lebron James are praised as being dynamic "two-way" players, but defensive effects can be challenging to quantify.  The average distance of the closest defender on shots will have a negative relationship with the shooting team's margin of victory, particularly in close games decided by ten points or less.
