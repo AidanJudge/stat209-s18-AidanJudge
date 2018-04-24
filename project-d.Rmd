@@ -17,16 +17,14 @@ library(dplyr)
 library(ggmap)
 library(viridis)
 library(forcats)
+library(smodels)
 library(smodels, lib.loc = "C:/Program Files/R/R-3.4.0/library")
 ```
 
 AVAILABLE DATASETS (choose one and delete the others)
 
 ```{r}
-nfl <- read_csv("https://statsmaths.github.io/stat_data/nfl2015.csv")
-taxi <- read_csv("https://statsmaths.github.io/stat_data/nyc_taxi_50.csv")
 nba_shots <- read_csv("https://statsmaths.github.io/stat_data/nba_shots.csv")
-cancer <- read_csv("https://statsmaths.github.io/stat_data/cancer_inc_data.csv")
 ```
 
 ##Model 1 Relationship between average defender distance on margin of victory/loss
@@ -35,20 +33,51 @@ cancer <- read_csv("https://statsmaths.github.io/stat_data/cancer_inc_data.csv")
 individualgames <- group_summarize(nba_shots, matchup)
 qplot(close_def_dist_mean, final_margin_mean, data = individualgames) +
   geom_smooth(method = "lm")
+model1 <- lm_basic(final_margin_mean ~ 1 + close_def_dist_mean, data = individualgames)
+reg_table(model1, level = .95)
 ```
 
-##Model 2 - Same as Model 1, but is it more significant for closer games (decided by 5 or less)
+##Model 2 - same as 1 but with median defender distance
+
+```{r}
+qplot(close_def_dist_median, final_margin_mean, data = individualgames) +
+  geom_smooth(method = "lm")
+model2 <- lm_basic(final_margin_mean ~ 1 + close_def_dist_median, data = individualgames)
+reg_table(model2, level = .95)
+```
+
+##Model 3 - Same as Model 1, but is it more significant for closer games (decided by 10 or less)
 
 ```{r}
 closegames <- filter(individualgames, final_margin_mean >= -10, final_margin_mean <= 10)
 qplot(close_def_dist_mean, final_margin_mean, data = closegames) +
   geom_smooth(method = "lm")
+model3 <- lm_basic(final_margin_mean ~ 1 + close_def_dist_mean, data = closegames)
+reg_table(model3, level = .95)
 ```
 
-##Model 4 Group summarize on top 30 players
+##Model 4 - Same as Model 2, but is it more significant for closer games (decided by 10 or less)
+
+```{r}
+qplot(close_def_dist_median, final_margin_mean, data = closegames) +
+  geom_smooth(method = "lm")
+model4 <- lm_basic(final_margin_mean ~ 1 + close_def_dist_median, data = closegames)
+reg_table(model4, level = .95)
+```
+
+##Model 5 Group summarize on top 30 players and see if total shot volume relates to consistency, i.e. shooting percentage
 ```{r}
 top30players <- group_summarize(nba_shots, fct_lump(player_name, 30))
-qplot()
+top30players$player_name <- top30players$`fct_lump(player_name, 30)`
+qplot(close_def_dist_mean, fgm_mean, data = top30players) +
+  geom_smooth(method = "lm") +
+  geom_text(aes(label = player_name), size = 2) +
+  geom_point(aes(color = cut(shooter_height_mean, 5)))
+             
+model5 <- lm_basic(fgm_mean ~ 1 + close_def_dist_mean + shooter_height_mean, data = top30players)
+reg_table(model5, level = .95)
 ```
 
 
+##Thesis (Accompanies Model 4):
+Defense is a significant factor in a team's success in the NBA, and players like Kawhi Leonard and Lebron James are praised as being dynamic "two-way" players, but defensive effects can be challenging to quantify.  The average distance of the closest defender on shots will have a negative relationship with the shooting team's margin of victory, particularly in close games decided by ten points or less.
